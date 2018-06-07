@@ -20,6 +20,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## App screen dump
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![app](https://user-images.githubusercontent.com/4386810/41088118-82248866-69f3-11e8-94ee-6bbe2b611722.jpg)
+
