@@ -44,6 +44,8 @@
       width: 100%;
 
       .post-msg {
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
         background: #FAFAFA;
         padding: 2px;
         margin: 2px;
