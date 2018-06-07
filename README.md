@@ -1,4 +1,4 @@
-# SocialFeed
+# Social Feed
 
 
 ## Development server
