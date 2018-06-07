@@ -50,7 +50,7 @@
       <mat-list>
         <mat-list-item *ngFor="let f of userApiService.items | async">
           <img matListAvatar matTooltip="{{f?.payload?.val()?.name}}, {{f?.payload?.val()?.location}}"
-               src="https://material.angular.io/assets/img/examples/shiba1.jpg" alt="test">
+               src="assets/avatar.png" alt="test">
           <span class="friend-detail">{{f?.payload?.val()?.name}}, {{f?.payload?.val()?.location}}</span>
         </mat-list-item>
       </mat-list>
