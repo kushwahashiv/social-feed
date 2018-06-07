@@ -1,0 +1,27 @@
+<mat-card class="feed-card">
+  <mat-card-content class="feed-card-content">
+    <div class="feed-user">
+      <div mat-card-avatar class="feed-image"></div>
+      <span>{{feed?.user}}</span>
+      <span class="feed-name">{{feed?.createdAt | date:'medium'}}</span>
+    </div>
+    <div class="divider"></div>
+    <div class="feed-msg">
+      <pre class="post-msg">{{feed?.text}}</pre>
+    </div>
+  </mat-card-content>
+  <mat-card-actions class="actions">
+    <button mat-icon-button matTooltip="like" (click)="react('like')" color="primary">
+      <mat-icon matBadge="{{feed?.like}}" matBadgeSize="small" matBadgeColor="primary">thumb_up_alt</mat-icon>
+    </button>
+
+    <button mat-icon-button matTooltip="dislike" (click)="react('dislike')" color="warn">
+      <mat-icon matBadge="{{feed?.dislike}}" matBadgeSize="small" matBadgeColor="warn">thumb_up_alt</mat-icon>
+    </button>
+
+    <button mat-icon-button matTooltip="dislike" (click)="react('love')" color="accent">
+      <mat-icon matBadge="{{feed?.love}}" matBadgeSize="small" matBadgeColor="accent">favorite</mat-icon>
+    </button>
+
+  </mat-card-actions>
+</mat-card>

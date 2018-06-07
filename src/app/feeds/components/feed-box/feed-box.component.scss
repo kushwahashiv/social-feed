@@ -1,0 +1,78 @@
+.feed-card {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 2px;
+
+  .feed-card-content {
+    display: flex;
+    flex-direction: row;
+
+    .feed-user {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 30%;
+
+      .feed-image {
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+      }
+
+      .feed-name {
+        color: deeppink;
+        font-weight: normal;
+        font-size: xx-small;
+        margin: 1px;
+      }
+    }
+
+    .divider {
+      width: 2px;
+      margin: 2px;
+      background: lightslategrey;
+    }
+
+    .feed-msg {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      align-content: left;
+      text-align: left;
+      padding: 5px;
+      margin: 2px;
+      width: 100%;
+
+      .post-msg {
+        background: #FAFAFA;
+        padding: 2px;
+        margin: 2px;
+        width: 100%;
+      }
+    }
+  }
+
+  .actions {
+    padding: 2px;
+    margin: 2px;
+  }
+}
+
+.feed-card:hover {
+  box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, .5);
+}
+
+.feed-card > * {
+  padding: 2px;
+  margin: 2px;
+  flex: 1 100%;
+}
+
+.button-row {
+  margin: 2px;
+  padding: 2px;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+<h4 mat-dialog-title>Add User</h4>
+<mat-dialog-content>
+  <form [formGroup]="userForm" novalidate>
+    <div class="borrower-form-container pad-top-sm" layout="row" layout-align="start center" layout-wrap>
+      <div class="form-group pad-xs">
+        <mat-form-field>
+          <input matInput placeholder="Name" formControlName="name" required>
+          <mat-error *ngIf="userForm.get('name').hasError('required')">Name is invalid</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Age" formControlName="age" required>
+          <mat-error *ngIf="userForm.get('age').hasError('required')">Age is invalid</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Email Address" formControlName="email">
+          <mat-error
+            *ngIf="userForm.get('email').hasError('pattern') && (userForm.get('email').touched || userForm.get('email').dirty)">
+            Please enter a valid email address
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Location" formControlName="location" required>
+          <mat-error *ngIf="userForm.get('location').hasError('required')">Location is invalid</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+  </form>
+
+</mat-dialog-content>
+<mat-divider class="modal-align"></mat-divider>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close class="text-uppercase">Cancel</button>
+  <button mat-button (click)="addFriend()" class="text-uppercase" color="accent">Add</button>
+</mat-dialog-actions>
+

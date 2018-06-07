@@ -1,0 +1,92 @@
+[  
+    {  
+       "eventName":"Rock Fest 2018",
+       "eventImage":"https://cdn.vor.us/images/frontpage/rockfest-fontpage-v2.jpg",
+       "eventDate":"Jul 12 - 14",
+       "venueName":"Cadott, WI",
+       "eventLink":"http://vor.us/9b306",
+       "sortOrder":0,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"Punk Rock Bowling Festival 2018",
+       "eventImage":"https://cdn.vor.us/images/frontpage/prb.jpg",
+       "eventDate":"May 26 - 28",
+       "venueName":"Las Vegas, NV",
+       "eventLink":"http://vor.us/9c08c",
+       "sortOrder":1,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"ScotsFestival",
+       "eventImage":"https://cdn.vor.us/images/frontpage/scotsfest.png",
+       "eventDate":"Feb 17 - 18",
+       "venueName":"Long Beach, CA",
+       "eventLink":"http://vor.us/9bb3b",
+       "sortOrder":2,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"North Coast Music Festival",
+       "eventImage":"https://cdn.vor.us/images/frontpage/northcoast-min.jpg",
+       "eventDate":"Aug 31 - Sep 2",
+       "venueName":"Chicago, IL",
+       "eventLink":"http://vor.us/9c1ef",
+       "sortOrder":3,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"Crush AZ 2018",
+       "eventImage":"https://cdn.vor.us/images/frontpage/crush18.jpg",
+       "eventDate":"Sat, Feb 17",
+       "venueName":"Phoenix, AZ",
+       "eventLink":"http://vor.us/9c199",
+       "sortOrder":4,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"#GRIDLIFE Midwest Festival",
+       "eventImage":"https://cdn.vor.us/images/frontpage/gridlife-18.jpg",
+       "eventDate":"Jun 7 - 19",
+       "venueName":"South Haven, MI",
+       "eventLink":"http://vor.us/9c42a",
+       "sortOrder":5,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"Pot of Gold 2018",
+       "eventImage":"https://cdn.vor.us/images/frontpage/potofgold.jpg",
+       "eventDate":"Mar 16 - 18",
+       "venueName":"Chandler, AZ",
+       "eventLink":"http://vor.us/9c044",
+       "sortOrder":6,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"The Shining",
+       "eventImage":"https://cdn.vor.us/images/frontpage/shining.jpg",
+       "eventDate":"Sat, Feb 10",
+       "venueName":"Los Angeles, CA",
+       "eventLink":"http://vor.us/9c28c",
+       "sortOrder":7,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"Cash Cash",
+       "eventImage":"https://cdn.vor.us/images/frontpage/cashcash.jpg",
+       "eventDate":"Sat, Feb 24",
+       "venueName":"Honolulu, HI",
+       "eventLink":"http://vor.us/9c42b",
+       "sortOrder":8,
+       "sectionType":"premiere"
+    },
+    {  
+       "eventName":"Let's Be Friends Tour",
+       "eventImage":"https://cdn.vor.us/images/frontpage/letsbefriends.jpg",
+       "eventDate":"Fri, Feb 9",
+       "venueName":"Hollywood, CA",
+       "eventLink":"http://vor.us/9c3bd",
+       "sortOrder":9,
+       "sectionType":"premiere"
+    }
+ ]
