@@ -22,6 +22,7 @@ import {AddFriendComponent} from './add-friend/add-friend.component';
   providers: [
     UserApiService
   ],
+  exports: [AddFriendComponent],
   entryComponents: [AddFriendComponent],
 })
 export class UserModule {

@@ -86,20 +86,7 @@ import {AngularFireDatabaseModule} from 'angularfire2/database';
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-    MatGridListModule,
-    MatCardModule,
-    MatMenuModule,
-    MatIconModule,
-    MatButtonModule,
-    MatFormFieldModule,
-    MatToolbarModule,
-    MatTooltipModule,
-    MatCardModule,
-    MatIconModule,
-    MatMenuModule,
-    MatFormFieldModule,
-    MatInputModule,
-
+    MatFormFieldModule
   ]
 })
 export class MaterialModule {
