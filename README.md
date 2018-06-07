@@ -1,8 +1,12 @@
 # Social Feed
 
+## Download source code
+Run `git clone https://github.com/kushwahashiv/social-feed.git` to clone the source code on your local machine. 
 
-## Development server
+## npm Install
+Run `npm install` to install npm app dependencies
 
+## Run app
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
