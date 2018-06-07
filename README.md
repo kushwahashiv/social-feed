@@ -26,5 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## App screen dump
 
-![app](https://user-images.githubusercontent.com/4386810/41088118-82248866-69f3-11e8-94ee-6bbe2b611722.jpg)
+![app](https://user-images.githubusercontent.com/4386810/41120356-23e9717e-6a4a-11e8-8d41-bb102f5a2cea.JPG)
 

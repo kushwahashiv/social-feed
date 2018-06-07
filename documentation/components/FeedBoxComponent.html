@@ -829,7 +829,7 @@ export class FeedBoxComponent {
       &lt;mat-icon matBadge&#x3D;&quot;{{feed?.dislike}}&quot; matBadgeSize&#x3D;&quot;small&quot; matBadgeColor&#x3D;&quot;warn&quot;&gt;thumb_up_alt&lt;/mat-icon&gt;
     &lt;/button&gt;
 
-    &lt;button mat-icon-button matTooltip&#x3D;&quot;dislike&quot; (click)&#x3D;&quot;react(&#x27;love&#x27;)&quot; color&#x3D;&quot;accent&quot;&gt;
+    &lt;button mat-icon-button matTooltip&#x3D;&quot;love&quot; (click)&#x3D;&quot;react(&#x27;love&#x27;)&quot; color&#x3D;&quot;accent&quot;&gt;
       &lt;mat-icon matBadge&#x3D;&quot;{{feed?.love}}&quot; matBadgeSize&#x3D;&quot;small&quot; matBadgeColor&#x3D;&quot;accent&quot;&gt;favorite&lt;/mat-icon&gt;
     &lt;/button&gt;
 
@@ -863,7 +863,7 @@ export class FeedBoxComponent {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><mat-card class="feed-card">  <mat-card-content class="feed-card-content">    <div class="feed-user">      <div mat-card-avatar class="feed-image"></div>      <span>{{feed?.user}}</span>      <span class="feed-name">{{feed?.createdAt | date:\'medium\'}}</span>    </div>    <div class="divider"></div>    <div class="feed-msg">      <pre class="post-msg">{{feed?.text}}</pre>    </div>  </mat-card-content>  <mat-card-actions class="actions">    <button mat-icon-button matTooltip="like" (click)="react(\'like\')" color="primary">      <mat-icon matBadge="{{feed?.like}}" matBadgeSize="small" matBadgeColor="primary">thumb_up_alt</mat-icon>    </button>    <button mat-icon-button matTooltip="dislike" (click)="react(\'dislike\')" color="warn">      <mat-icon matBadge="{{feed?.dislike}}" matBadgeSize="small" matBadgeColor="warn">thumb_up_alt</mat-icon>    </button>    <button mat-icon-button matTooltip="dislike" (click)="react(\'love\')" color="accent">      <mat-icon matBadge="{{feed?.love}}" matBadgeSize="small" matBadgeColor="accent">favorite</mat-icon>    </button>  </mat-card-actions></mat-card></div>'
+        var COMPONENT_TEMPLATE = '<div><mat-card class="feed-card">  <mat-card-content class="feed-card-content">    <div class="feed-user">      <div mat-card-avatar class="feed-image"></div>      <span>{{feed?.user}}</span>      <span class="feed-name">{{feed?.createdAt | date:\'medium\'}}</span>    </div>    <div class="divider"></div>    <div class="feed-msg">      <pre class="post-msg">{{feed?.text}}</pre>    </div>  </mat-card-content>  <mat-card-actions class="actions">    <button mat-icon-button matTooltip="like" (click)="react(\'like\')" color="primary">      <mat-icon matBadge="{{feed?.like}}" matBadgeSize="small" matBadgeColor="primary">thumb_up_alt</mat-icon>    </button>    <button mat-icon-button matTooltip="dislike" (click)="react(\'dislike\')" color="warn">      <mat-icon matBadge="{{feed?.dislike}}" matBadgeSize="small" matBadgeColor="warn">thumb_up_alt</mat-icon>    </button>    <button mat-icon-button matTooltip="love" (click)="react(\'love\')" color="accent">      <mat-icon matBadge="{{feed?.love}}" matBadgeSize="small" matBadgeColor="accent">favorite</mat-icon>    </button>  </mat-card-actions></mat-card></div>'
     var COMPONENTS = [{'name': 'AddFriendComponent', 'selector': 'add-friend'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'FeedBoxComponent', 'selector': 'feed-box'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'FeedBoxComponent'};

@@ -5,7 +5,7 @@ export class AppPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+  getSearchPlaceholderText() {
+    return element(by.css('app-root div app-dashboard mat-toolbar div div mat-form-field div div div')).getText();
   }
 }

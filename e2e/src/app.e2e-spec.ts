@@ -7,8 +7,8 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome statusMessage', () => {
+  it('should display Search for feeds by text, user or location', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to social-feed!');
+    expect(page.getSearchPlaceholderText()).toEqual('Search for feeds by text, user or location');
   });
 });
