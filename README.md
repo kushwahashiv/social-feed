@@ -1,19 +1,19 @@
 # Social Feed
 
-## Download source code
+## Download
 Run `git clone https://github.com/kushwahashiv/social-feed.git` to clone the source code on your local machine. 
 
-## npm Install
+## Install
 Run `npm install` to install npm app dependencies
 
-## Run app
+## Run
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## docs
+## Docs
 Run `npm run doc` to build the project document. The build artifacts will be stored in the `documentation/` directory.
 
 ## Running unit tests
